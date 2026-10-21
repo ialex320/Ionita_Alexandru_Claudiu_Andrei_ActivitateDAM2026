@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Modul Nou - Seminar 4</string>
+    <string name="apasa">Apasa!</string>
+    <string name="introduceti_numele">Introduceti numele!</string>
+    <string name="esti_student">Esti student?</string>
+
+    <string name="titlu_adauga">Adauga un avion</string>
+    <string name="model">Model</string>
+    <string name="hint_model">ex: Boeing 737</string>
+    <string name="nr_locuri">Numar locuri</string>
+    <string name="hint_locuri">ex: 180</string>
+    <string name="companie">Companie aeriana</string>
+    <string name="tip">Tip avion</string>
+    <string name="tip_pasageri">Pasageri</string>
+    <string name="tip_marfa">Marfa</string>
+    <string name="tip_privat">Privat</string>
+    <string name="are_wifi">Are Wi-Fi la bord</string>
+    <string name="in_serviciu">In serviciu</string>
+    <string name="rating">Rating</string>
+    <string name="salveaza">Salveaza</string>
+
+    <string name="icon_avion">✈</string>
+    <string name="subtitlu_adauga">Completeaza detaliile aeronavei</string>
+    <string name="sectiune_identificare">Identificare</string>
+    <string name="sectiune_detalii">Detalii</string>
+    <string name="sectiune_evaluare">Evaluare</string>
+
+    <string-array name="companii">
+        <item>Tarom</item>
+        <item>Wizz Air</item>
+        <item>Ryanair</item>
+        <item>Lufthansa</item>
+        <item>HiSky</item>
+    </string-array>
+</resources>
