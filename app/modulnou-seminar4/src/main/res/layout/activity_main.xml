@@ -20,6 +20,12 @@
         android:onClick="deschideAdaugareAI"
         android:text="Adauga avion (design AI)" />
 
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="deschideLista"
+    android:text="Vezi lista de avioane" />
+
     <TextView
         android:id="@+id/avion_TV"
         android:layout_width="match_parent"

@@ -13,7 +13,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+    public static ArrayList<Avion> avioane = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(this, AdaugaAvionAIActivity.class);
         startActivityForResult(it, 100);
     }
+    public void deschideLista(View view)
+    {
+        Intent it = new Intent(this, ListaAvioaneActivity.class);
+        startActivity(it);
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -46,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         {
             Bundle bundle = data.getExtras();
             Avion avion = bundle.getParcelable("avion");
+            avioane.add(avion);
 
             TextView tv = findViewById(R.id.avion_TV);
             tv.setText(avion.toString());
