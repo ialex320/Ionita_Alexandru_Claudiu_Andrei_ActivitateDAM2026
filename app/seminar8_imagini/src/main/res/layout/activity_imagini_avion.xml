@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImaginiAvionActivity">
+
+<!--
+https://media.istockphoto.com/id/96653894/ro/fotografie/avion-pe-cer.jpg
+https://www.shutterstock.com/image-photo/airplane-take-off-on-blue-260nw-2662643431.jpg
+https://cdn.adh.reperio.news/image-4/43b2c239-93e4-4a3f-96bf-c1c7d3176477/index.jpeg
+https://chic-escapes.ro/wp-content/uploads/2014/09/1280px-Airbus_A380_overfly-900x444.jpg
+https://stirileprotv.ro/img/2019/02/13/220000/62021472.jpg
+-->
+    <ListView
+        android:id="@+id/imaginiAvion_LV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

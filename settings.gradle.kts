@@ -26,3 +26,4 @@ rootProject.name = "Ionita_Alexandru_Claudiu_Andrei_ActivitateDAM2026"
 include(":app")
 include(":app:seminar1")
 include(":app:modulnou-seminar4")
+include(":app:seminar8_imagini")
