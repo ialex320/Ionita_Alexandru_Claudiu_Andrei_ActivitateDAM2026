@@ -55,11 +55,11 @@ public class ActivitateNoua extends AppCompatActivity {
         executor.execute(new Runnable() {
             @Override
             public void run() {
-                String link = "https://dataservice.accuweather.com/locations/v1/cities/search?apikey=CHEIA_TA&q=" + oras;
+                String link = "https://dataservice.accuweather.com/locations/v1/cities/search?apikey=API_KEY&q=" + oras;
                 try {
                     URL url = new URL(link);
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                    conn.setRequestProperty("Authorization", "Bearer CHEIA_TA");
+                    conn.setRequestProperty("Authorization", "Bearer API_KEY");
                     BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                     StringBuilder builder = new StringBuilder("");
                     String linie;
