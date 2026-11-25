@@ -1,6 +1,8 @@
 package com.example.ionita_alexandru_claudiu_andrei_activitatedam2026;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
